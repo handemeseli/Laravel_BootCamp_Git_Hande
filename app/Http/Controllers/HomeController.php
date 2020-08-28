@@ -14,12 +14,12 @@ class HomeController extends Controller
          //$users = DB::table('users');//veritabanından çeker
         //dd($users);
 
-        //$products = Product::with(['user'])->get();
-             $products= DB::table('users')
-            ->join('products','products.created_by','=','users.id')
-            ->select('users.name','products.name')
+        $products = Product::with(['user'])->get();
+        $users= DB::table('users')
+            ->join('products','users.id','=','products.created_by')
+            ->select('users.*','users.name','products.name')
             ->get();
-        return view('merhaba', compact('products'));//->with(['users'=> $users]);
+        return view('merhaba', compact('products'));//->with(['users'=> $users]));
 
     }
     public function listele(){
