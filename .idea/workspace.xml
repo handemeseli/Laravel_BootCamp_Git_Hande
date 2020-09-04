@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="80d2ad1f-10b0-46ef-a868-f1fae6ab2331" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin-master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/update.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/merhaba.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/merhaba.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_112705_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_112705_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +167,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hande\Projects_Laravel\Laravel_BootCamp_Git_Hande\public" />
+      <recent name="C:\Users\hande\Projects_Laravel\Laravel_BootCamp_Git_Hande\public\index_view" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -159,24 +190,57 @@
       <workItem from="1598384386273" duration="4615000" />
       <workItem from="1598447118649" duration="249000" />
       <workItem from="1598631382635" duration="2719000" />
+      <workItem from="1598647322676" duration="49000" />
+      <workItem from="1598691580434" duration="14232000" />
+      <workItem from="1598777650419" duration="6276000" />
+      <workItem from="1598817230733" duration="642000" />
+      <workItem from="1598960391420" duration="1049000" />
+      <workItem from="1598962155963" duration="4853000" />
+      <workItem from="1598986026698" duration="6022000" />
+      <workItem from="1599222356916" duration="7627000" />
+      <workItem from="1599258229659" duration="495000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="430" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598388898000">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="430" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1598388898000" />
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1598447372854">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1598962488582">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1598447372854" />
-    <state x="293" y="157" width="672" height="678" key="search.everywhere.popup" timestamp="1598388750705">
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1598962488582" />
+    <state x="683" y="324" key="NewPhpFileDialog" timestamp="1598817581267">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="293" y="157" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1598388750705" />
+    <state x="683" y="324" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1598817581267" />
+    <state x="0" y="0" width="585" height="768" key="find.popup" timestamp="1598817740302">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" width="585" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1598817740302" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1598693441050">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1598693441050" />
+    <state x="293" y="157" width="672" height="678" key="search.everywhere.popup" timestamp="1598701532398">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="293" y="157" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1598701532398" />
   </component>
 </project>
