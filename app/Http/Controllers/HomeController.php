@@ -77,5 +77,8 @@ class HomeController extends Controller
 
         return 'Başarıyla güncellendi.';
     }
+    public function index(){
+        return view('home');
+    }
 
 }

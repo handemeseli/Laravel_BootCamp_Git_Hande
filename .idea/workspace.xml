@@ -20,16 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80d2ad1f-10b0-46ef-a868-f1fae6ab2331" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin-master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/update.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helpers/UploadPaths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Laravel_BootCamp_Git_Hande.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laravel_BootCamp_Git_Hande.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_112705_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_112705_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin-master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin-master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/update.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +55,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="handemeseli.test" id="5de0b526-3617-4146-8861-c6faacc2f250" name="Laravel_BootCamp_Git_Hande" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/home/vagrant/Projects_Laravel/Laravel_BootCamp_Git_Hande" />
+          <mapping local-root="$PROJECT_DIR$/public" remote-root="/home/vagrant/Projects_Laravel/Laravel_BootCamp_Git_Hande/public" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -147,6 +169,15 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gbXf6bScvtrRVPnNp4jWPqtLS1" />
@@ -157,7 +188,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -173,11 +204,18 @@
       <recent name="C:\Users\hande\Projects_Laravel\Laravel_BootCamp_Git_Hande\public\index_view" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Page.Laravel_BootCamp_Git_Hande">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="Laravel_BootCamp_Git_Hande" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Laravel_BootCamp_Git_Hande">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.Laravel_BootCamp_Git_Hande" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -198,7 +236,14 @@
       <workItem from="1598962155963" duration="4853000" />
       <workItem from="1598986026698" duration="6022000" />
       <workItem from="1599222356916" duration="7627000" />
-      <workItem from="1599258229659" duration="495000" />
+      <workItem from="1599258229659" duration="913000" />
+      <workItem from="1599302399873" duration="5802000" />
+      <workItem from="1599689840768" duration="78000" />
+      <workItem from="1599860669646" duration="3285000" />
+      <workItem from="1599900071414" duration="397000" />
+      <workItem from="1599901146665" duration="11219000" />
+      <workItem from="1599932500471" duration="83000" />
+      <workItem from="1599934325145" duration="13960000" />
     </task>
     <servers />
   </component>
@@ -218,18 +263,74 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="398" y="16" width="840" height="688" key="#Servers" timestamp="1599305397863">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="398" y="16" width="840" height="688" key="#Servers/0.0.1366.768@0.0.1366.768" timestamp="1599305397863" />
+    <state x="470" y="0" width="852" height="768" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599305403369">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="470" y="0" width="852" height="768" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1599305403369" />
     <state x="430" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598388898000">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="430" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1598388898000" />
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1598962488582">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1599990753302">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1598962488582" />
-    <state x="683" y="324" key="NewPhpFileDialog" timestamp="1598817581267">
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1599990753302" />
+    <state width="1323" height="253" key="GridCell.Tab.0.bottom" timestamp="1600004691116">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="683" y="324" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1598817581267" />
+    <state width="1323" height="253" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.0.center" timestamp="1600004691115">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600004691115" />
+    <state width="1323" height="253" key="GridCell.Tab.0.left" timestamp="1600004691115">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600004691115" />
+    <state width="1323" height="253" key="GridCell.Tab.0.right" timestamp="1600004691116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.1.bottom" timestamp="1600004691116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.1.center" timestamp="1600004691116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.1.left" timestamp="1600004691116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.1.right" timestamp="1600004691116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.2.bottom" timestamp="1600004691117">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600004691117" />
+    <state width="1323" height="253" key="GridCell.Tab.2.center" timestamp="1600004691116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.2.left" timestamp="1600004691116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1600004691116" />
+    <state width="1323" height="253" key="GridCell.Tab.2.right" timestamp="1600004691117">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="253" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1600004691117" />
+    <state x="835" y="381" key="NewPhpFileDialog" timestamp="1600005747257">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="835" y="381" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1600005747257" />
     <state x="0" y="0" width="585" height="768" key="find.popup" timestamp="1598817740302">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
